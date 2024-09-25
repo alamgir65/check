@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Learn Technology point.</h1>
+    <div class="forms">
+        <form action="">
+            <label for="name">
+                Name : 
+                <input type="text" name="name" id="name" placeholder="Enter your name">
+            </label>
+            <label for="email">
+                Email : 
+                <input type="email" name="email" id="email" placeholder="Enter yout email">
+            </label>
+            <label for="pass">
+                Password :
+                <input type="password" name="pass" id="pass" placeholder="Enter your password">
+            </label>
+            <fieldset>
+                <legend>Choose Your Course Category</legend>
+                <label for="web">
+                    Web Development
+                    <input type="radio" name="course" id="web">
+                </label>
+                <label for="app">
+                    App Development
+                    <input type="radio" name="course" id="app">
+                </label>
+                <label for="ai">
+                    AI & Machine Learning
+                    <input type="radio" name="course" id="ai">
+                </label>
+                <label for="design">
+                    Design
+                    <input type="radio" name="course" id="design">
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Choose Your Extra facilities</legend>
+                <label for="support">
+                    Support Session
+                    <input type="checkbox" name="facilities" id="support">
+                </label>
+                <label for="assignment">
+                    Weekly Assignment
+                    <input type="checkbox" name="facilities" id="assignment">
+                </label>
+                <label for="conceptual">
+                    Conceptual Session
+                    <input type="checkbox" name="facilities" id="conceptual">
+                </label>
+                <label for="contest">
+                    Contest
+                    <input type="checkbox" name="facilities" id="contest">
+                </label>
+            </fieldset>
+            <input type="reset" value="Reset">
+            <input type="submit" value="Submit">
+        </form>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Addmission Form</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Please Fillup this Form with your correct information.</h1>
+    <form>
+        <label for="name"> Your Name : 
+            <input id="name" type="text" placeholder="Enter your name">
+        </label>
+        <label for="email"> Your Email : 
+            <input id="email" type="email" placeholder="Enter your email">
+        </label>
+        <label for="password"> Password : 
+            <input id="password" type="password" placeholder="Enter your password">
+        </label>
+        <label for="phone"> Your Number : 
+            <input id="phone" type="text" placeholder="Enter your Number">
+        </label>
+        <fieldset>
+            <legend>Choose Your Subject</legend>
+            <label for="cse">
+                <input type="radio" name="dipartment" id="cse">
+                Computer Science and Engineering
+            </label>
+            <label for="eee">
+                <input type="radio" name="dipartment" id="eee">
+                Electrical and Electronics Engineering
+            </label>
+            <label for="bba">
+                <input type="radio" name="dipartment" id="bba">
+                Bachelors of Bussiness Administrators
+            </label>
+        </fieldset>
+        <fieldset>
+            <legend>Choice Your Non Departmental Courses</legend>
+            <label for="calculas">
+                <input type="checkbox" name="subjects" id="calculas">
+                Calculas
+            </label>
+            <label for="echonomics">
+                <input type="checkbox" name="subjects" id="echonomics">
+                Echonomics
+            </label>
+            <label for="physics">
+                <input type="checkbox" name="subjects" id="physics">
+                Physics
+            </label>
+            <label for="english">
+                <input type="checkbox" name="subjects" id="english">
+                English
+            </label>
+            <label for="statictics">
+                <input type="checkbox" name="subjects" id="statictics">
+                Statictics
+            </label>
+            <label for="pharmacy">
+                <input type="checkbox" name="subjects" id="pharmacy">
+                Pharmacy
+            </label>
+        </fieldset>
+        <input type="reset" value="Reset">
+        <button>Submit</button>
+    </form>
+</body>
+</html>
