@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .same{
+            display: block;
+        }
+        label{
+            margin: 5px;
+            
+        }
+        input,textarea,select{
+            background-color: rgba(168, 224, 234, 0.737);
+            border-radius: 5px;
+        }
+        button{
+            border-radius: 5px;
+        }
+        
+    </style>
+</head>
+<body style="background-color: gainsboro;">
+    <marquee behavior="" style="color:blue; font-size: 20px;" direction="right">Medicine Symposium Registration Form</marquee>
+    <form style="background-color: rgb(234, 226, 226);">
+        <label for="title">
+            <h4>Title :</h4> 
+            <select name="title" id="title">
+                <option value="Select">Title</option>
+                <option value="Normal">Normal</option>
+                <option value="Admin">Admin</option>
+                <option value="VIP">VIP</option>
+            </select>
+        </label>
+        <label for="first_name"> 
+            <input type="text" name="first_name" id="name" placeholder="First">
+        </label>
+        <label for="last_name">
+            <input type="text" name="last_name" id="name" placeholder="Last">
+        </label>
+        <label class="same" for="institutioon"></label>
+            <b>Institutioon : </b>
+            <br>
+            <input type="text" name="institutioon" id="institutioon">
+        </label>
+        <label class="same" for="email"></label>
+            <b>Email Address:</b> 
+            <br>
+            <input type="email" name="email" id="email">
+        </label>
+        <label class="same" for="note">
+            <b>Note to the organizers :</b>
+            <br>
+            <textarea name="note" id=""></textarea>
+        </label>
+
+        <button style="background-color: rgb(213, 119, 18); color:aliceblue" type="reset">Reset</button>
+        <button style="background-color: blue; color: wheat" type="submit">Submit</button>
+
+
+    </form>
+
+
+
+    <div style="border: 1px solid black; width:200px; height:120px; margin:5px;background-color:rgb(11, 105, 5); text-align:center;">
+        <div style="border: 1px solid black; width:100px; height:100px; margin:5px; border-radius:50%; background-color:rgb(197, 6, 6); margin-left:40px; margin-top:10px;"></div>
+    </div>
+</body>
+</html>

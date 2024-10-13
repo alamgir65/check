@@ -5,70 +5,34 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        label{
-            display: block;
-            margin-bottom: 10px;
+        td,tr,th{
+            border: 1px solid black;
+        }
+        table{
+            border-collapse: collapse;
         }
     </style>
 </head>
 <body>
-    <h1>Welcome to Learn Technology point.</h1>
-    <div class="forms">
-        <form action="">
-            <label for="name">
-                Name : 
-                <input type="text" name="name" id="name" placeholder="Enter your name">
-            </label>
-            <label for="email">
-                Email : 
-                <input type="email" name="email" id="email" placeholder="Enter yout email">
-            </label>
-            <label for="pass">
-                Password :
-                <input type="password" name="pass" id="pass" placeholder="Enter your password">
-            </label>
-            <fieldset>
-                <legend>Choose Your Course Category</legend>
-                <label for="web">
-                    Web Development
-                    <input type="radio" name="course" id="web">
-                </label>
-                <label for="app">
-                    App Development
-                    <input type="radio" name="course" id="app">
-                </label>
-                <label for="ai">
-                    AI & Machine Learning
-                    <input type="radio" name="course" id="ai">
-                </label>
-                <label for="design">
-                    Design
-                    <input type="radio" name="course" id="design">
-                </label>
-            </fieldset>
-            <fieldset>
-                <legend>Choose Your Extra facilities</legend>
-                <label for="support">
-                    Support Session
-                    <input type="checkbox" name="facilities" id="support">
-                </label>
-                <label for="assignment">
-                    Weekly Assignment
-                    <input type="checkbox" name="facilities" id="assignment">
-                </label>
-                <label for="conceptual">
-                    Conceptual Session
-                    <input type="checkbox" name="facilities" id="conceptual">
-                </label>
-                <label for="contest">
-                    Contest
-                    <input type="checkbox" name="facilities" id="contest">
-                </label>
-            </fieldset>
-            <input type="reset" value="Reset">
-            <input type="submit" value="Submit">
-        </form>
-        
-    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Phone</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="2">Alamgir</td>
+                <td>076342885668</td>
+            </tr>
+            <tr>
+                <td>4589734278538</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <p>Hello, How are you? kiya hal hain apka? <dl><dt>Fruits</dt><dd>Mango,Banana,Water Melon</dd></dl> </p>
+    <img src="images/98.jpg" alt="university">
 </body>
 </html>

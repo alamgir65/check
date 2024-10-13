@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Form in Html</title>
+    <style>
+        label,fieldset{
+            display: block;
+            padding: 7px;
+        }
+        button{
+            border-radius: 5px;
+            margin: 5px;
+            padding: 5px;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <label for="name">
+            Name : 
+            <input type="text" name="name" id="name" placeholder="Enter Your Name">
+        </label>
+        <label for="email">
+            Email :
+            <input type="email" name="email" id="email" placeholder="Enter Your email">
+        </label>
+        <label for="phone">
+            Mobile : 
+            <input type="text" name="phone" id="phone" placeholder="phone">
+        </label>
+        <label for="pass">
+            Password : 
+            <input type="password" name="pass" id="pass" placeholder="Enter password">
+        </label>
+        <label for="birthday">
+            Date of Birth : 
+            <input type="date" name="birthday" id="birthday">
+        </label>
+        <label for="gender">
+            Gender : 
+            <select name="geneder" id="gender">
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="3rd">3rd</option>
+            </select>
+        </label>
+        <fieldset>
+            <legend>Gender : 
+            </legend>
+            <label for="gen">Male
+                <input type="radio" name="gen" id="m">
+            </label>
+            <label for="gen">Female
+                <input type="radio" name="gen" id="F">
+            </label>
+            <label for="gen">3rd Gender
+                <input type="radio" name="gen" id="3rd">
+            </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>
+                Language Skills :
+            </legend>
+            <label for="lang">English
+                <input type="checkbox" name="lang" id="eng">
+            </label>
+            <label for="lang">Bangla
+                <input type="checkbox" name="lang" id="ban">
+            </label>
+            <label for="lang">Germain
+                <input type="checkbox" name="lang" id="ger">
+            </label>
+            <label for="lang">Spanish
+                <input type="checkbox" name="lang" id="eng">
+            </label>
+        </fieldset>
+        <label for="address"> Address : </label>
+        <textarea style="display: block; width: 200px;height:200px;" name="address" id="" placeholder="Enter your address"></textarea>
+
+        <button style="background-color: rgb(213, 119, 18); color:aliceblue" type="reset">Reset</button>
+        <button style="background-color: blue; color: wheat" type="submit">Submit</button>
+    </form>
+</body>
+</html>
